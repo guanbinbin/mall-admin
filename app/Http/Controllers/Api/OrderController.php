@@ -27,7 +27,7 @@ class OrderController extends Controller
     public function details(Request $request)
     {
         $u_id = $request->get('u_id');
-        
+
         $id = $request->get('id');
 
         $OrderModel = new OrderModel();
